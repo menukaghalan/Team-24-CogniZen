@@ -305,3 +305,10 @@ The app currently aims for:
 - The app uses persistent local storage for the profile and preferences.
 - The README reflects the current `CogniZen` and Mochi-based experience.
 - User-facing copy should stay human and supportive even when the underlying model gets more sophisticated.
+
+## Team Members
+- Rishav Mishra
+- Menuka Ghalan
+- Brisa Ghimire
+- Rasuka Shrestha
+- Pravin Paudel
