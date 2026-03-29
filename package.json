@@ -1,0 +1,42 @@
+{
+  "name": "cognizen",
+  "version": "1.0.0",
+  "main": "expo/AppEntry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "postinstall": "node scripts/patch-react-native-screens.js"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~5.0.5",
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
+    "expo": "~53.0.0",
+    "expo-asset": "~11.1.7",
+    "expo-audio": "^0.4.9",
+    "expo-file-system": "~18.1.11",
+    "expo-font": "^13.3.2",
+    "expo-haptics": "^14.1.4",
+    "expo-linear-gradient": "^14.1.5",
+    "expo-status-bar": "~2.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-native": "^0.79.6",
+    "react-native-gesture-handler": "^2.24.0",
+    "react-native-reanimated": "^3.17.4",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "~4.11.1",
+    "react-native-svg": "^15.11.2",
+    "react-native-web": "^0.20.0",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "@types/react": "^19.0.10",
+    "babel-plugin-transform-import-meta": "^2.3.3",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "CogniZen",
+    "slug": "cognizen",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FFF8F0"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.cognizen.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#FFF8F0"
+      },
+      "package": "com.cognizen.app"
+    },
+    "updates": {
+      "enabled": false
+    },
+    "plugins": [
+      "expo-font",
+      "expo-asset"
+    ],
+    "icon": "./assets/images/logo.png"
+  }
+}
